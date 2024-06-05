@@ -64,31 +64,11 @@ export default defineComponent({
 
     function randomWallpaper() {
       const wallpapers = [
-        '/images/wallpapers/wallpaper1.jpg', // 请替换成你自己的壁纸URL或路径
-        '/images/wallpapers/wallpaper2.jpg',
-        '/images/wallpapers/wallpaper3.jpg',
-        '/images/wallpapers/wallpaper4.jpg',
-        '/images/wallpapers/wallpaper5.jpg',
-        '/images/wallpapers/wallpaper6.jpg',
-        '/images/wallpapers/wallpaper7.jpg',
-        '/images/wallpapers/wallpaper8.jpg',
-        '/images/wallpapers/wallpaper9.jpg',
-        '/images/wallpapers/wallpaper10.jpg',
-        '/images/wallpapers/wallpaper11.jpg',
-        '/images/wallpapers/wallpaper12.jpg',
-        '/images/wallpapers/wallpaper13.jpg',
-        '/images/wallpapers/wallpaper14.jpg',
-        '/images/wallpapers/wallpaper15.jpg',
-        '/images/wallpapers/wallpaper16.jpg',
-        '/images/wallpapers/wallpaper14.jpg',
-        '/images/wallpapers/wallpaper18.jpg',
-        '/images/wallpapers/wallpaper19.jpg',
-        '/images/wallpapers/wallpaper20.jpg',
-        '/images/wallpapers/wallpaper21.jpg',
-        '/images/wallpapers/wallpaper22.jpg',
-        '/images/wallpapers/wallpaper23.jpg',
-        '/images/wallpapers/wallpaper24.jpg',
-        '/images/wallpapers/wallpaper25.jpg',
+        '/images/wallpapers/1.png', // 请替换成你自己的壁纸URL或路径
+        '/images/wallpapers/2.png',
+        '/images/wallpapers/3.png',
+
+
         // 添加更多壁纸路径
       ];
 
