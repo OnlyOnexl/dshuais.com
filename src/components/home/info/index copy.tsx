@@ -51,33 +51,15 @@ export default defineComponent({
      */
     const { hasLoading } = storeToRefs(useAppStore())
 
-    // function randomWallpaper() {
-    //   const index = Math.floor(Math.random() * wallpapers.value)
-    //   const url = `https://files.dshuais.com/images/wallpaper/${index}.png` // getImageUrl(`home/${index}.png`)
-    //   setWallpaper('auto', url)
-
-    //   hasLoading.value = true
-    //   loadImg().then(_ => {
-    //     hasLoading.value = false
-    //   })
-    // }
-
     function randomWallpaper() {
-      const wallpapers = [
-        '/images/wallpapers/wallpaper1.png', // 请替换成你自己的壁纸URL或路径
-        '/images/wallpapers/wallpaper2.png',
-        '/images/wallpapers/wallpaper3.png',
-        // 添加更多壁纸路径
-      ];
+      const index = Math.floor(Math.random() * wallpapers.value)
+      const url = `https://files.dshuais.com/images/wallpaper/${index}.png` // getImageUrl(`home/${index}.png`)
+      setWallpaper('auto', url)
 
-      const index = Math.floor(Math.random() * wallpapers.length);
-      const url = wallpapers[index];
-      setWallpaper('auto', url);
-
-      hasLoading.value = true;
+      hasLoading.value = true
       loadImg().then(_ => {
-        hasLoading.value = false;
-      });
+        hasLoading.value = false
+      })
     }
 
     function loadImg() {
