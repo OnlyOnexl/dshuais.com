@@ -1,9 +1,9 @@
 import { Card, Icon, NuxtImg } from "#components"
 
 /*
- * @Author: dushuai
+ * @Author: one
  * @Date: 2024-03-11 14:35:51
- * @LastEditors: dushuai
+ * @LastEditors: one
  * @LastEditTime: 2024-03-11 16:03:54
  * @description: 网站列表
  */
