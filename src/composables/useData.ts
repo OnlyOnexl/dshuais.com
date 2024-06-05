@@ -25,6 +25,8 @@ export const useData = () => {
     { name: '导航', href: 'https://onedayxyy.cn/docusaurus/docs/tool/', icon: 'https://files.dshuais.com/images/logo/dm.png', iconType: 'img' },
     { name: '相册', href: 'http://47.100.215.163:8080/', icon: 'mdi:web-check' },
     { name: '音乐', href: 'https://onedayxyy.cn/musics/', icon: 'https://files.dshuais.com/images/logo/k.png', iconType: 'img' },
+    { name: '关于我', href: 'https://onedayxyy.cn/docusaurus/docs/aboutAuthor/', icon: 'https://files.dshuais.com/images/logo/k.png', iconType: 'img' },
+    { name: '关于本站', href: 'https://onedayxyy.cn/docusaurus/docs/missing/', icon: 'https://files.dshuais.com/images/logo/k.png', iconType: 'img' },
   ])
 
   return {
