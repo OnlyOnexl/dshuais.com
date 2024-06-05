@@ -24,6 +24,7 @@ export default defineComponent({
 
     const socialList = ref<Social[]>([
       { id: 'github', path: 'https://github.com/OnlyOnexl', icon: 'mdi:github', tip: '去GitHub看看~' },
+      { id: 'gitee', path: 'https://gitee.com/onlyonexl', icon: 'mdi:github', tip: '去Gitee看看~' },
       { id: 'qq', path: 'https://res.abeim.cn/api/qq/?qq=2675263825', icon: 'basil:qq-solid', tip: '一起玩局游戏吧' },
       { id: 'wechat', path: 'https://onedayxyy.cn/images/image-20230107215114763-1694437284994-1-1697348761221-1-1697407921190-1-1697636582091-3-1698965093137-1.png', icon: 'ic:baseline-wechat', type: 'pop', tip: '有什么事吗' },
       { id: 'wechat-public', path: 'https://onedayxyy.cn/images/image-20230107215126971.png', icon: 'mingcute:wechat-miniprogram-fill', type: 'pop', tip: '订阅走起~' },
