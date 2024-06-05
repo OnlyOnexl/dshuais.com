@@ -53,8 +53,7 @@ export default defineComponent({
 
     function randomWallpaper() {
       const index = Math.floor(Math.random() * wallpapers.value)
-      // const url = `https://files.dshuais.com/images/wallpaper/${index}.png` // getImageUrl(`home/${index}.png`)
-      const url = `https://onedayxyy.cn/images/1717122201-971389-v2-4bcd6ff63972821d4647a5f140231d7e-r.jpg` // getImageUrl(`home/${index}.png`)
+      const url = `https://files.dshuais.com/images/wallpaper/${index}.png` // getImageUrl(`home/${index}.png`)
       setWallpaper('auto', url)
 
       hasLoading.value = true
