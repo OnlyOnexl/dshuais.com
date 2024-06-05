@@ -47,7 +47,7 @@ if (process.client) {
     <div class="h-[100vh] max-w-[76rem] m-auto flex flex-col items-center lg:justify-center px-4 lg:px-0 pt-32 lg:pt-0">
       <div class="flex flex-col justify-center items-center select-none" v-show="zoom">
         <GlitchText class="block sm:hidden" text="Hi," type="hover"></GlitchText>
-        <GlitchText class="block sm:hidden" text="dushuai!" type="hover"></GlitchText>
+        <GlitchText class="block sm:hidden" text="xyy!" type="hover"></GlitchText>
         <HomeHoverme text="Hover Me !✌" class="hidden sm:block">
           <GlitchText text="Hi, dushuai!" type="auto"></GlitchText>
         </HomeHoverme>

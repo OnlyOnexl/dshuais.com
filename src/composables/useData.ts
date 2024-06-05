@@ -18,11 +18,11 @@ export const useData = () => {
    * 网站列表
    */
   const websites = ref<Website[]>([
-    { name: 'homepage', href: 'https://homepage.dshuais.com/', icon: 'mdi:web-check' },
-    { name: '博客', href: 'https://blog.dshuais.com/', icon: 'fa6-solid:blog' },
+    { name: 'homepage', href: 'https://onedayxyy.cn/', icon: 'mdi:web-check' },
+    { name: '博客', href: 'http://47.100.215.163:8090/', icon: 'fa6-solid:blog' },
     // { name: 'create-kd', href: 'https://create-keep-design.dshuais.com/', icon: 'k' },
-    { name: 'keepdesign', href: 'https://keep-design.dshuais.com/', icon: 'https://files.dshuais.com/images/logo/k.png', iconType: 'img' },
-    { name: 'danmaku', href: 'https://danmaku-vue.dshuais.com/', icon: 'https://files.dshuais.com/images/logo/dm.png', iconType: 'img' },
+    { name: '知识库', href: 'https://onedayxyy.cn/docusaurus/', icon: 'https://files.dshuais.com/images/logo/k.png', iconType: 'img' },
+    { name: '导航', href: 'https://onedayxyy.cn/docusaurus/docs/tool/', icon: 'https://files.dshuais.com/images/logo/dm.png', iconType: 'img' },
   ])
 
   return {
