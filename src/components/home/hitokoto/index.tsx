@@ -18,8 +18,8 @@ export default defineComponent({
   setup() {
 
     const hitokoto = ref<Hitokoto>({
-      hitokoto: '己所不欲勿施于人',
-      from: 'dushuai',
+      hitokoto: '明心静性，爱自己',
+      from: '彦',
     })
 
     function getData() {
