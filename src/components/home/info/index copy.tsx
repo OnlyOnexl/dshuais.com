@@ -51,55 +51,15 @@ export default defineComponent({
      */
     const { hasLoading } = storeToRefs(useAppStore())
 
-    // function randomWallpaper() {
-    //   const index = Math.floor(Math.random() * wallpapers.value)
-    //   const url = `https://files.dshuais.com/images/wallpaper/${index}.png` // getImageUrl(`home/${index}.png`)
-    //   setWallpaper('auto', url)
-
-    //   hasLoading.value = true
-    //   loadImg().then(_ => {
-    //     hasLoading.value = false
-    //   })
-    // }
-
     function randomWallpaper() {
-      const wallpapers = [
-        '/images/wallpapers/wallpaper1.png', // 请替换成你自己的壁纸URL或路径
-        '/images/wallpapers/wallpaper2.png',
-        '/images/wallpapers/wallpaper3.png',
-        '/images/wallpapers/wallpaper4.png',
-        '/images/wallpapers/wallpaper5.png',
-        '/images/wallpapers/wallpaper6.png',
-        '/images/wallpapers/wallpaper7.png',
-        '/images/wallpapers/wallpaper8.png',
-        '/images/wallpapers/wallpaper9.png',
-        '/images/wallpapers/wallpaper10.png',
-        '/images/wallpapers/wallpaper11.png',
-        '/images/wallpapers/wallpaper12.png',
-        '/images/wallpapers/wallpaper13.png',
-        '/images/wallpapers/wallpaper14.png',
-        '/images/wallpapers/wallpaper15.png',
-        '/images/wallpapers/wallpaper16.png',
-        '/images/wallpapers/wallpaper14.png',
-        '/images/wallpapers/wallpaper18.png',
-        '/images/wallpapers/wallpaper19.png',
-        '/images/wallpapers/wallpaper20.png',
-        '/images/wallpapers/wallpaper21.png',
-        '/images/wallpapers/wallpaper22.png',
-        '/images/wallpapers/wallpaper23.png',
-        '/images/wallpapers/wallpaper24.png',
-        '/images/wallpapers/wallpaper25.png',
-        // 添加更多壁纸路径
-      ];
+      const index = Math.floor(Math.random() * wallpapers.value)
+      const url = `https://files.dshuais.com/images/wallpaper/${index}.png` // getImageUrl(`home/${index}.png`)
+      setWallpaper('auto', url)
 
-      const index = Math.floor(Math.random() * wallpapers.length);
-      const url = wallpapers[index];
-      setWallpaper('auto', url);
-
-      hasLoading.value = true;
+      hasLoading.value = true
       loadImg().then(_ => {
-        hasLoading.value = false;
-      });
+        hasLoading.value = false
+      })
     }
 
     function loadImg() {
