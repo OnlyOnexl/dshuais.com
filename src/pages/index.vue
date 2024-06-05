@@ -13,7 +13,7 @@ useHead({
   // title: '我的应用',
   // titleTemplate: '%s - dshuais',
   titleTemplate: (titleChunk) => {
-    return titleChunk ? `${titleChunk} - DUSHUAI!` : 'DUSHUAI!'
+    return titleChunk ? `${titleChunk} - one!` : 'one!'
   },
   link: [{
     rel: 'stylesheet',
@@ -49,7 +49,7 @@ if (process.client) {
         <GlitchText class="block sm:hidden" text="Hi," type="hover"></GlitchText>
         <GlitchText class="block sm:hidden" text="xyy!" type="hover"></GlitchText>
         <HomeHoverme text="Hover Me !✌" class="hidden sm:block">
-          <GlitchText text="Hi, dushuai!" type="auto"></GlitchText>
+          <GlitchText text="Hi, one!" type="auto"></GlitchText>
         </HomeHoverme>
       </div>
 
