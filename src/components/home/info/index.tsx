@@ -87,7 +87,7 @@ export default defineComponent({
                 fill="currentColor"></path>
             </svg>
           </div>
-          <div class="font-Pacifico pl-8">Hello World</div>
+          <div class="font-Pacifico pl-8">彦</div>
           <div class="text-5xl font-title ml-[-1rem] mt-4 pl-8">明心静性，爱自己</div>
           <div class="w-full flex justify-end">
             <div class="text-xs w-4 h-4 relative right-0 mt-2">
